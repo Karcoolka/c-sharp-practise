@@ -1,0 +1,14 @@
+C:\Users\adela\RiderProjects\Exercise\Exercise\bin\Debug\net10.0\Exercise.exe
+C:\Users\adela\RiderProjects\Exercise\Exercise\bin\Debug\net10.0\Exercise.deps.json
+C:\Users\adela\RiderProjects\Exercise\Exercise\bin\Debug\net10.0\Exercise.runtimeconfig.json
+C:\Users\adela\RiderProjects\Exercise\Exercise\bin\Debug\net10.0\Exercise.dll
+C:\Users\adela\RiderProjects\Exercise\Exercise\bin\Debug\net10.0\Exercise.pdb
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.AssemblyInfoInputs.cache
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.AssemblyInfo.cs
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.csproj.CoreCompileInputs.cache
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.dll
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\refint\Exercise.dll
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.pdb
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\Exercise.genruntimeconfig.cache
+C:\Users\adela\RiderProjects\Exercise\Exercise\obj\Debug\net10.0\ref\Exercise.dll
