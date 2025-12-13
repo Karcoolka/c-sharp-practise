@@ -1,0 +1,15 @@
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\bin\Debug\net10.0\CSharp_practise.exe
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\bin\Debug\net10.0\CSharp_practise.deps.json
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\bin\Debug\net10.0\CSharp_practise.runtimeconfig.json
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\bin\Debug\net10.0\CSharp_practise.dll
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\bin\Debug\net10.0\CSharp_practise.pdb
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.AssemblyInfoInputs.cache
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.AssemblyInfo.cs
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.csproj.CoreCompileInputs.cache
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.sourcelink.json
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.dll
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\refint\CSharp_practise.dll
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.pdb
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\CSharp_practise.genruntimeconfig.cache
+C:\Users\adela\RiderProjects\Exercise\CSharp_practise\obj\Debug\net10.0\ref\CSharp_practise.dll
