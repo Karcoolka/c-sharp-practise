@@ -29,4 +29,10 @@ public class Beginner
     {
         return number % 2 == 0 ? "Even" : "Odd";
     }
+    
+    //Sum of all numbers in an integer array.
+    public static int SumArray(int[] numbers)
+    {
+        return numbers.Sum();
+    }
 }

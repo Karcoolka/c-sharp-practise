@@ -8,4 +8,7 @@
         <RootNamespace>Exercise</RootNamespace>
     </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="learning\LearningNotes.cs" />
+  </ItemGroup>
 </Project>

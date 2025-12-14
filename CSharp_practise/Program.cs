@@ -17,5 +17,10 @@ class Program
         int number = 10;
         string result = Beginner.CheckEvenOdd(number); 
         Console.WriteLine(result);
+        
+        //Sum of all numbers in an integer array.
+        int[] numbers = {1, 2, 3, 4, 5};
+        int sum = Beginner.SumArray(numbers); 
+        Console.WriteLine(sum); 
     }
 }
