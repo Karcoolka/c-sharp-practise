@@ -21,6 +21,16 @@ class Program
         //Sum of all numbers in an integer array.
         int[] numbers = {1, 2, 3, 4, 5};
         int sum = Beginner.SumArray(numbers); 
-        Console.WriteLine(sum); 
+        Console.WriteLine(sum);
+        
+        // Counts how many times a given number appears in an array.
+        int[] numbers2 = {1, 2, 3, 4, 5, 2, 2, 2};
+        int count = Beginner.CountOccurrences(numbers2, 2); 
+        Console.WriteLine(count);
+        
+        // Counts the number of vowels in a string.
+        string str = "Hello Wooorld!";
+        int vowels = Beginner.CountVowels(str); 
+        Console.WriteLine(vowels);
     }
 }

@@ -35,4 +35,20 @@ public class Beginner
     {
         return numbers.Sum();
     }
+    
+    // Counts how many times a given number appears in an array.
+    public static int CountOccurrences(int[] numbers, int number)
+    {
+        return numbers.Count(n => n == number);
+    }
+    
+    
+    // Counts the number of vowels in a string.
+    public static int CountVowels(string str)
+    {
+        return str
+            .ToLower()
+            .Count(c => "aeiou".Contains(c));
+    }
+    
 }
