@@ -32,5 +32,10 @@ class Program
         string str = "Hello Wooorld!";
         int vowels = Beginner.CountVowels(str); 
         Console.WriteLine(vowels);
+        
+        //Checks whether a string is a palindrome
+        string text = "race car";
+        bool palindrome = Beginner.IsPalindrome(text); 
+        Console.WriteLine(palindrome);
     }
 }

@@ -51,4 +51,26 @@ public class Beginner
             .Count(c => "aeiou".Contains(c));
     }
     
+    //Checks whether a string is a palindrome
+    public static bool IsPalindrome(string text)
+    {
+        string cleaned = text.ToLower().Replace(" ", "");
+
+        int left = 0;
+        int right = cleaned.Length - 1;
+
+        while (left < right)
+        {
+            if (cleaned[left] != cleaned[right])
+            {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+    
 }
