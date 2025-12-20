@@ -73,4 +73,28 @@ public class Beginner
         return true;
     }
     
+    //Finds the first non-repeating character in a string
+    public static char FirstNonRepeatingChar(string text)
+    {
+        if (string.IsNullOrEmpty(text))
+            return '\0';
+
+        Dictionary<char, int> counts = new Dictionary<char, int>();
+
+        foreach (char c in text.ToLower())
+        {
+            if (counts.ContainsKey(c))
+                counts[c]++;
+            else
+                counts[c] = 1;
+        }
+
+        foreach (char c in text.ToLower())
+        {
+            if (counts[c] == 1)
+                return c;
+        }
+
+        return '\0';
+    }
 }
