@@ -97,4 +97,47 @@ public class Beginner
 
         return '\0';
     }
+    
+    // Check whether two strings are anagrams
+    public static bool IsAnagram(string str1, string str2)
+    {
+        return string.Concat(str1.OrderBy(c => c)) == string.Concat(str2.OrderBy(c => c));
+    }   
+    
+    public static bool AreAnagrams(string s1, string s2)
+    {
+        // 1. Normalize strings (lowercase + remove spaces)
+        s1 = s1.ToLower().Replace(" ", "");
+        s2 = s2.ToLower().Replace(" ", "");
+
+        // 2. If lengths differ, they cannot be anagrams
+        if (s1.Length != s2.Length)
+            return false;
+
+        // 3. Count characters in first string
+        Dictionary<char, int> counts = new Dictionary<char, int>();
+
+        foreach (char c in s1)
+        {
+            if (counts.ContainsKey(c))
+                counts[c]++;
+            else
+                counts[c] = 1;
+        }
+
+        // 4. Subtract counts using second string
+        foreach (char c in s2)
+        {
+            if (!counts.ContainsKey(c))
+                return false;
+
+            counts[c]--;
+
+            if (counts[c] < 0)
+                return false;
+        }
+
+        return true;
+    }
+    
 }
