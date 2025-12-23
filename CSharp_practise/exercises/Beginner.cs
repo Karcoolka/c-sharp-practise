@@ -140,4 +140,31 @@ public class Beginner
         return true;
     }
     
+    // Finds the longest substring without repeating characters
+    public static int LongestUniqueSubstring(string text)
+    {
+        if (string.IsNullOrEmpty(text))
+            return 0;
+
+        HashSet<char> seen = new HashSet<char>();
+
+        int left = 0;
+        int maxLength = 0;
+
+        for (int right = 0; right < text.Length; right++)
+        {
+            // If duplicate found, move left pointer
+            while (seen.Contains(text[right]))
+            {
+                seen.Remove(text[left]);
+                left++;
+            }
+
+            seen.Add(text[right]);
+            maxLength = Math.Max(maxLength, right - left + 1);
+        }
+
+        return maxLength;
+    }
+    
 }
