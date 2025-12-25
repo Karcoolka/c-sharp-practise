@@ -37,5 +37,31 @@ class Program
         string text = "race car";
         bool palindrome = Beginner.IsPalindrome(text); 
         Console.WriteLine(palindrome);
+        
+        //Finds the first non-repeating character in a string
+        string text2 = "abaCaba";
+        char firstNonRepeating = Beginner.FirstNonRepeatingChar(text2); 
+        Console.WriteLine(firstNonRepeating);
+        
+        // Checks whether two strings are anagrams
+        string str1 = "listen";
+        string str2 = "silent";
+        bool anagram = Beginner.IsAnagram(str1, str2); 
+        Console.WriteLine(anagram);
+        
+        bool anagram2 = Beginner.AreAnagrams(str1, str2); 
+        Console.WriteLine(anagram2);
+        
+        // Finds the longest substring without repeating characters
+        string str3 = "pwwkew";
+        string str4 = "aabccbb";
+        string str5 = "abcabc";
+        int longest = Beginner.LongestUniqueSubstring(str3); 
+        Console.WriteLine(longest);
+        
+        // Returns the length of the longest consecutive sequence
+        int[] nums = {100, 4, 200, 1, 3, 2};
+        int longestConsecutive = Beginner.LongestConsecutive(nums); 
+        Console.WriteLine(longestConsecutive);  
     }
 }
