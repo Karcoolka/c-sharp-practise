@@ -167,4 +167,34 @@ public class Beginner
         return maxLength;
     }
     
+    // Returns the length of the longest consecutive sequence
+    
+    public static int LongestConsecutive(int[] nums)
+    {
+        if (nums == null || nums.Length == 0)
+            return 0;
+
+        HashSet<int> set = new HashSet<int>(nums);
+        int longest = 0;
+
+        foreach (int num in set)
+        {
+            // only start counting if this is the start of a sequence
+            if (!set.Contains(num - 1))
+            {
+                int currentNum = num;
+                int currentLength = 1;
+
+                while (set.Contains(currentNum + 1))
+                {
+                    currentNum++;
+                    currentLength++;
+                }
+
+                longest = Math.Max(longest, currentLength);
+            }
+        }
+
+        return longest;
+    }
 }
