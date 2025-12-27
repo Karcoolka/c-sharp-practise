@@ -63,5 +63,14 @@ class Program
         int[] nums = {100, 4, 200, 1, 3, 2};
         int longestConsecutive = Beginner.LongestConsecutive(nums); 
         Console.WriteLine(longestConsecutive);  
+        
+        // Finds all pairs of numbers in an array that sum to a given target
+        int[] nums2 = {2, 7, 11, 15};
+        int target = 9;
+        List<(int, int)> pairs = Beginner.TwoSumPairs(nums2, target); 
+        foreach (var pair in pairs)
+        {
+            Console.WriteLine($"({pair.Item1}, {pair.Item2})");
+        }
     }
 }
