@@ -67,7 +67,7 @@ class Program
         // Finds all pairs of numbers in an array that sum to a given target
         int[] nums2 = {2, 7, 11, 15};
         int target = 9;
-        List<(int, int)> pairs = Beginner.TwoSumPairs(nums2, target); 
+        List<(int, int)> pairs = Intermediate.TwoSumPairs(nums2, target); 
         foreach (var pair in pairs)
         {
             Console.WriteLine($"({pair.Item1}, {pair.Item2})");
